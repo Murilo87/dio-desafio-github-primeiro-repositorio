@@ -1,2 +1,24 @@
-Link oara download do Git: https://git-scm.com/download/win
+Link para download do Git: https://git-scm.com/download/win
 o Git Bash é um terminal extendido para otimizar o uso do Git.
+
+* Criando um repositório pelo GitHub
+
+* Como baixar o repsositório e trabalhar na minha máquina local?
+
+1 - Clonamos o repositório, indo no ícone "CODE" e copiando o link https;
+2 - Abriremos o Git Bash no diretório/pasta que irá receber o repositório;
+3 - Vá até o diretório de destino clique com o botão deireito do mouse, e selecione a opção: "Gite Bash Here";
+4 - Diditaremos os seguintes comandos;
+5 - git clone e colar o link https do nosso repositório - irá clonar o nosso repositório do GitHub;
+6 - cd dio-desafio-github-primeiro-repositorio - iremos trabalhar dentro do diretorio que acabamos de clonar;
+7 - git status - mensagem que estamos na Branch Master/Main e que está tudo ok;
+
+Criamos uma pasta e adcionamos um arquivo para anotações, como enviar para o GitHub?
+
+8 - git status - irá mostrar em vermelho que existe uma nova e pasta e seu nome;
+9 - git add . - adiciona todos os arquivos para o controle de versão;
+10 - git status - irá mostrar em verde que  o arquivo já está adicionado e pronto no controle de versão local, ou seja pronto para ser commitado;
+11 - git commit -m "Inclusão das anotações do curso de Git/GitHub" - Iremos icluir um comentário no nosso commit utilizando a flag -m 
+     e irá informar que foi criado um commit para aquele arquivo;
+12 - git status - exibirá uma mensagem que existe um commit local e que para enviá-lo para nuvem e necessário digitar "git push";
+13 - git push origin main - enviaremos todos os commits que temos localmente para a nuvem;
