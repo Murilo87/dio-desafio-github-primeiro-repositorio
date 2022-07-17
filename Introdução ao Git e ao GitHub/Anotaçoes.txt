@@ -8,7 +8,7 @@ o Git Bash é um terminal extendido para otimizar o uso do Git.
 1 - Clonamos o repositório, indo no ícone "CODE" e copiando o link https;
 2 - Abriremos o Git Bash no diretório/pasta que irá receber o repositório;
 3 - Vá até o diretório de destino clique com o botão deireito do mouse, e selecione a opção: "Gite Bash Here";
-4 - Diditaremos os seguintes comandos;
+4 - Digitaremos os seguintes comandos;
 5 - git clone e colar o link https do nosso repositório - irá clonar o nosso repositório do GitHub;
 6 - cd dio-desafio-github-primeiro-repositorio - iremos trabalhar dentro do diretorio que acabamos de clonar;
 7 - git status - mensagem que estamos na Branch Master/Main e que está tudo ok;
